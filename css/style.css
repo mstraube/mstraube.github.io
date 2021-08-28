@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #222;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+a {
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: .8em 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.wrapper {
+    padding: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+        padding: 4em;
+    }
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 2em;
+}
+
+.profile-img:hover {
+    border-radius: 0px;
+}
+
+.intro {
+    font-size: 28px;
+    margin-bottom: 2em;
+}
+
+.sub-intro {
+    margin-bottom: 2em;
+    line-height: 26px;
+}
+
+.contact {
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 24px;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.contact:hover {
+    background-color: rgb(255, 196, 0);
+    color:#222
+}
+
+ul.socials {
+    list-style: none;
+    display: inline-block;
+}
+
+ul.socials li {
+    display: inline-block;
+}
+
+ul.socials li a {
+    display: inline-block;
+    padding: 16px;
+    transition: all 0.4s ease-in-out;
+}
+
+ul.socials li a:hover {
+    color: rgb(255, 196, 0);
+}
+
+ul.work {
+    list-style: none;
+    display: inline-block;
+    clear: both;
+}
+
+ul.work li {
+    padding: .2em .6em;
+    margin: .2em .2em .2em 0;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 8px;
+    transition: all 0.4s ease-in-out;
+}
+
+ul.work li:first-child {
+    padding: 0;
+    margin-bottom: 1em;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: .75em;
+    display: block;
+}
+
+ul.work li:hover {
+    background-color: #fff;
+}
