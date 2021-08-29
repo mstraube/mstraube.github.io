@@ -10,19 +10,12 @@ body {
     font-size: 18px;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 a {
     color: inherit;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    margin: .8em 0;
-}
-
-h1 {
-    font-size: 3em;
 }
 
 .wrapper {
@@ -46,24 +39,23 @@ h1 {
 }
 
 .profile-img:hover {
-    border-radius: 0px;
+    border-radius: 20px;
+    transform: scale(2);
 }
 
 .intro {
-    font-size: 28px;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
-.sub-intro {
-    margin-bottom: 2em;
-    line-height: 26px;
+.get-in-touch {
+    margin-bottom: 3em;
 }
 
-.contact {
+.contact-btn {
     background-color: #222;
     color: #fff;
     text-decoration: none;
-    padding: 16px 24px;
+    padding: 1em 2em;
     transition: all 0.4s ease-in-out;
     text-transform: uppercase;
     float: left;
@@ -71,9 +63,13 @@ h1 {
     margin-bottom: 1em;
 }
 
-.contact:hover {
+.contact-btn:hover {
     background-color: rgb(255, 196, 0);
     color:#222
+}
+
+.contact-btn i {
+    margin-right: 1em;
 }
 
 ul.socials {
@@ -87,12 +83,13 @@ ul.socials li {
 
 ul.socials li a {
     display: inline-block;
-    padding: 16px;
+    padding: 1em;
     transition: all 0.4s ease-in-out;
 }
 
 ul.socials li a:hover {
     color: rgb(255, 196, 0);
+    transform: scale(1.2);
 }
 
 ul.work {
@@ -109,6 +106,7 @@ ul.work li {
     border-radius: 8px;
     transition: all 0.4s ease-in-out;
     cursor: default;
+    color: #888;
 }
 
 ul.work li:first-child {
@@ -122,4 +120,5 @@ ul.work li:first-child {
 
 ul.work li:hover {
     background-color: #fff;
+    color: #222;
 }
