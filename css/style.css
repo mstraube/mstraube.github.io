@@ -123,3 +123,7 @@ ul.work li:hover {
     background-color: #fff;
     color: #222;
 }
+
+ul.work li a {
+    text-decoration: none;
+}
